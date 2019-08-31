@@ -1,0 +1,22 @@
+/* 
+    Document   : form
+    Created on : 02/07/2010, 23:31:10
+    Author     : Matheus Totora
+    Description: Estilo para os formularios do projeto.
+*/
+table{
+    margin-left:300px;
+}
+table .odd{
+    background-color:#FFFFFF;
+}
+table .even{
+    background-color:#DDDDDD;
+}
+table th{
+    background-color:#DDDDDD;
+}
+/*Estilo para campos obrigatorios*/
+.tabtd{
+    font-size:11px;
+}

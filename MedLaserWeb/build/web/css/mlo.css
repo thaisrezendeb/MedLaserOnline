@@ -1,0 +1,107 @@
+/* 
+    Document   : mlo
+    Created on : 02/07/2010, 18:52:39
+    Author     : Matheus Totora
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*Estilo para as páginas do projeto.*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: #FFFFFF;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 62.5%;
+    color: #333333;
+}
+
+#container{
+    margin: 0 auto;
+    width: 90%;
+    min-width: 765px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+/*Estilo para o Cabeçalho*/
+#header{
+    height: 150px; /*Altura do header*/
+    border-bottom: 5px solid #191970; /*Linha separadora do header*/
+    text-align: center;
+}
+
+#footer {
+    height: 40px; /*Altura do header*/
+    border-top: 5px solid #191970; /*Linha separadora do header*/
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/*Define a linha vertical de 2 pixel, que separa a coluna esquerda da coluna central.*/
+#separadorColuna{
+    margin-left: 200px;
+    padding-left: 2px;
+    color: #333333;
+    padding: 2px 10px;
+    text-align: justify;
+}
+
+/*Espaco do conteudo principal na tela*/
+#conteudoPrincipal{
+    margin-top: 10px;
+    margin-left: 200px;
+    min-height: 350px;
+}
+
+/*Configuracao do menu treeview dos postos*/
+#menutreeview {
+    margin-top: 10px;
+    width: 190px;
+    float: left;
+    height: 100px;
+}
+
+#tabela{
+    /* width: 100%;*/
+}
+
+/*Espaco ocupado pela tabela na tela*/
+#tabela table{
+    width: 100%; 
+}
+
+/*Configuracao da linha*/
+#tabela tr{
+    padding: 5px;
+}
+
+/*Configuracao da celula*/
+#tabela td{
+    padding: 5px;
+}
+
+/*Confuguracao do cabecalho da tabela*/
+#tabela th{
+    padding: 5px;
+    background-color: #AAAAAA;
+}
+
+/*Linhas impares da tabela*/
+#tabela .odd{
+    background-color: #FFFFFF;
+}
+
+/*Linhas pares da tabela*/
+#tabela .even{
+    background-color: #DDDDDD;
+}
+
+.botao {
+    background-color:#F0F8FF;
+}

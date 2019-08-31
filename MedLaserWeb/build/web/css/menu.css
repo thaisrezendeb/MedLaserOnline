@@ -1,0 +1,51 @@
+/* 
+    Document   : menu
+    Created on : 03/07/2010, 14:08:55
+    Author     : Matheus Totora
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*Estilo para o posicionamento do menu principal, lado esquerdo da página*/
+#conteudoEsq{
+    position:absolute;
+    width:190px;
+    top:95px; /*Afastamento em relação ao topo da página*/
+    left:0px; /*Afastamento em relação ao lado esquerdo da página*/
+    color:#99f; /*Cor do texto*/
+    padding-bottom:430px;
+    border-right:2px double black;
+    background-color:#F0F8FF;
+}
+
+#menu{
+    width:190px; /*Tamanho da largura do menu*/
+    padding:0;
+    margin:0;
+    font:14px Verdana, sans-serif;
+}
+#menu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#menu li {
+    border-bottom:1px solid green;
+    margin:0;
+}
+#menu li a{
+    display:block;
+    padding:5px 5px 5px 0.5em;
+    font-weight:bold;
+    border-left:10px solid #000080;
+    border-right:10px solid #000080;
+    background-color:blue;
+    color:white;
+    text-decoration:none;
+}
+/*Estilo do link ao posicionar o mouse sobre ele*/
+#menu li a:hover{
+    border-left:10px solid #000080;
+    border-right:10px solid #000080;
+    background-color:#1e90ff; /*Cor de fundo do botao ao passar o mouse sobre ele*/
+    color:white; /*Cor do texto do link ao passar o mouse sobre ele*/
+}

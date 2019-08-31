@@ -1,0 +1,25 @@
+/* 
+    Document   : login
+    Created on : 02/07/2010, 14:34:25
+    Author     : Matheus Totora
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background: #FFFFFF;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 62.5%;
+    color: #333333;
+    text-align: center;
+    width: 350px;
+    border: 1px solid #D3D3D3;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.error {
+    color: red;
+}
