@@ -7,6 +7,9 @@ Este trabalho foi criado como projeto interdisciplinar do curso de Sistemas de I
 # Descrição
 O MedLaserOnline é o monitor de postos de combustíveis acessado remotamente que permite, integrado ao sistema MedLaser desenvolvido pela empresa MDL Equipamentos Ltda., gerenciar o nível dos tanques de combustíveis de diferentes postos, bem como emissão de relatórios estatísticos de consumo.
 
+# Estrutura
+O projeto é dividido em duas partes: o "core" desenvolvido em Java está disponível no diretório MLOCore; as páginas web e interface de controle foi disponibilizada no diretório MedLaserWeb.
+
 # Autores
 - Altair Campos Lage Filho
 - Matheus Carrozza Tótora
